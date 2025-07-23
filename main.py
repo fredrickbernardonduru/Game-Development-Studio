@@ -8,8 +8,7 @@ def main():
     designer = TeamMember("Jakes", "Figma")
     developer = TeamMember("Kim" , "Python")
 
-    design_tool1 = GameDesigner("Figma")
-    design_tool2 = GameDesigner("Sketch")
+    project = GameProject("Bounce", designer, developer)
 
     programming_language1 = Developer("Python")
     programming_language2 = Developer("C#")
