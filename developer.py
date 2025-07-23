@@ -4,4 +4,7 @@ class Developer(TeamMember):
     def __init__(self, name, role,programming_language):
         super().__init__(name, role)
         self.programming_language = programming_language
-        
+
+    def write_codes(self):
+        return f"{self.name} is wrinting code in {self.programming_language}"
+    

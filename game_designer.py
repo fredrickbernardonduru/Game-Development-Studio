@@ -5,5 +5,5 @@ class GameDesigner(TeamMember):
         super().__init__(name, role)
         self.design_tool = design_tool
 
-    def __str__(self):
+    def create_mockup(self):
         return f"{self.name} is creating mockups using {self.design_tool}"
