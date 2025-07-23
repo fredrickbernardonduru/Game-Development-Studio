@@ -5,8 +5,8 @@ from game_project import GameProject
 
 
 def main():
-    member1 = TeamMember("Jakes", "Designer")
-    member2 = TeamMember("Kim" , "Developer")
+    member1 = TeamMember("Jakes", "Designer", "Figma")
+    member2 = TeamMember("Kim" , "Developer", "Python")
 
     design_tool1 = GameDesigner("Figma")
     design_tool2 = GameDesigner("Sketch")
