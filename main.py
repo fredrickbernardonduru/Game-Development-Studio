@@ -12,8 +12,17 @@ def main():
     design_tool2 = GameDesigner("Sketch")
 
     programming_language1 = Developer("Python")
-    programming_language1 = Developer("C#")
+    programming_language2 = Developer("C#")
 
     GameProject1 = GameProject("Bounce", {})
+
+
+    print(member1)
+    print(member2)
+    print(design_tool1)
+    print(design_tool2)
+    print(programming_language1)
+    print(programming_language2)
+    print()
 
     
