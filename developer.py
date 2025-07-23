@@ -1,8 +1,8 @@
 from team_member import TeamMember
 
 class Developer(TeamMember):
-    def __init__(self, name, role,programming_language):
-        super().__init__(name, role)
+    def __init__(self, name,programming_language):
+        super().__init__(name, "Developer")
         self.programming_language = programming_language
 
     def write_codes(self):

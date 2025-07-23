@@ -5,3 +5,6 @@ class TeamMember:
     
     def introduce(self):
         return f"Hi, I'm {self.name} and I work as a {self.role}"
+    
+    def __str__(self):
+        return self.introduce()
