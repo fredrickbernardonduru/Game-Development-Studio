@@ -23,6 +23,9 @@ def main():
     print(design_tool2)
     print(programming_language1)
     print(programming_language2)
-    print()
+    print(GameProject1)
+
+    if __name__ == "__main__":
+        main()
 
     
